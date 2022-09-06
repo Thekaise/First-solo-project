@@ -1,0 +1,168 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/* Global */ 
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+/* HERE START THE FIRST SECTION */ 
+
+.hero-section{
+    background-image: url("images/san_blas.jpg");
+    background-size: cover;
+    background-position: center; 
+    color: white;
+    padding: 120px 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    width: 380px;
+    font-size: 32px;
+    background-color: #1D3557;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+h2{
+    width: 450px;
+    margin: 11px;
+    font-size: 18px;
+    background-color: #457B9D;
+    padding: 5px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+/* HERE FINISH THE FIRST SECTION, AND START THE SECOND SECTION */
+
+h3{
+    font-size: 24px;
+    font-weight: 800;
+    color: #1D3557;    
+}
+
+.activities{
+    background-color: #F1FAEE;
+    padding: 10px 20px;
+}
+
+.activities-info{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities-img{
+    border-radius: 50%;
+}
+.activity{
+    padding: 35px;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D3557;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D3557;
+}
+
+/* HERE END THE SECOND SECTION, AND START THE THIRD SECTION */
+
+.guide{
+    padding: 50px 160px;
+}
+
+.guide-card{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A8DADC;
+    padding: 5px 13px;
+    border-radius: 10px;
+    border-bottom: 6px solid #1D3557;
+    text-align: center;
+}
+
+.guide-profile{
+    width: 160px;
+    border-radius: 10px;
+}
+
+.guide-info{
+    padding: 5px 20px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/* HERE END THE THIRD SECTION, AND START THE NEW SECTION */ 
+.contact{
+    background-image: url("images/Contact.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-form{
+    color: white;
+    background-color: #457B9D;
+    padding: 5px 10px;
+}
+
+.input{
+    border-radius: 5px;
+    padding: 10px 150px 10px 20px;
+    margin: 5px 0;
+    border: 1px solid grey;
+}
+
+.social{
+    width: 20px;
+    padding: 5px;
+    background-color: #E63946;
+    margin: 0 5px;
+    border-radius: 10%;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text{
+    font-size: 20px;
+    text-shadow: -5px 5px 10px #E63946;
+    color: white;
+    padding: 0 10px;
+}
